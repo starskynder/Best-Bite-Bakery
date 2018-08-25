@@ -1,0 +1,15 @@
+/* ---- Variables --- */
+/* ------- General Styles ------- */
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* --- Header  --- */
+.header_img {
+  margin: 2em; }
