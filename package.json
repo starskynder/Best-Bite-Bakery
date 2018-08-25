@@ -1,0 +1,16 @@
+{
+  "name": "best-bite-bakery",
+  "version": "1.0.0",
+  "description": "Template website for a bakery called best bite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "starskynder",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
