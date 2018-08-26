@@ -1,0 +1,38 @@
+/* --- Media Queries --- */
+@media screen and (min-width: 400px) {
+  #video {
+    width: 350px;
+    height: 197px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #video {
+    width: 560px;
+    height: 315px;
+  }
+
+  .shop_item {
+    flex: 40%;
+  }
+
+  .header_img {
+    padding-top: 5em;
+    margin: 0 1em;
+  }
+
+  .navbar {
+    font-size: 2em;
+    justify-content: flex-end;
+  }
+
+  .secondary-heading {
+    font-size: 2.3em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .shop_item {
+    flex: 30%;
+  }
+}
