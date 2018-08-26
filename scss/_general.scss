@@ -5,7 +5,67 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Bad Script", cursive;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: $primary-color;
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  color: $pink-salmon;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    color: $spray;
+    text-decoration: underline;
+  }
+}
+
+h2 {
+  font-family: "Cedarville Cursive", cursive;
+  color: #c68d6d;
+
+  &::before,
+  &::after {
+    content: "⚉";
+  }
+}
+
+.secondary-heading {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-family: inherit;
+}
+
+p {
+  font-size: 1.3em;
+  padding: 1em;
+  max-width: 700px;
+}
+
+footer {
+  @include flex-row;
+
+  justify-content: center;
+
+  h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: inherit;
+  }
 }
