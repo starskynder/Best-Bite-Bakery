@@ -1,0 +1,36 @@
+/* --- Header  --- */
+#header {
+  width: 100%;
+  background-color: lighten($color: $pink-salmon, $amount: 20);
+}
+
+.header_img {
+  // max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  padding: 5em 0.6em 0.6em 0.6em;
+}
+
+/* --- Navigation --- */
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background-color: $cookie-yellow;
+  height: 4em;
+}
+
+.navbar {
+  @include flex-row;
+
+  list-style-type: none;
+  justify-content: center;
+  padding: 0.5em;
+  margin: 0;
+  font-size: 1.7em;
+  color: $pink-salmon;
+}
+
+.nav-link {
+  padding: 0.5em;
+}
