@@ -7,6 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Best Bite Bakery</title>
   <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Cedarville+Cursive" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -14,11 +17,123 @@
 
 </body>
 <header id="header">
-  <img src="images/bestbitelogo14.png" alt="" id="header-img" class="header_img">
 
+
+  <nav id="nav-bar">
+    <ul class="navbar">
+      <li><a href="#about" class="nav-link"> About</a>
+      </li>
+
+      <li><a href="#shop" class="nav-link">Shop</a> </li>
+      <li><a href="#contacts" class="nav-link">Contacts</a> </li>
+    </ul>
+
+
+  </nav>
+
+  <img srcset="images/bestbitelogo14.png 210w, images/bestbitelogobig.png 329w" sizes="(max-width:700px) 150px, 230px" src="images/bestbitelogobig.png"
+    alt="best bite logo" id="header-img" class="header_img">
 </header>
-<main></main>
-<footer></footer>
+<main>
+  <section class="about" id="about">
+    <h2 class="secondary-heading">About</h2>
+    <iframe id="video" width="250" height="141" src="https://www.youtube.com/embed/8FuW056zlyg" frameborder="0" allow="autoplay; encrypted-media"
+      allowfullscreen></iframe>
+    <p> Best Bite Cookie is a specialized bakery in activity since 1940. Lorem ipsum dolor sit amet consectetur, adipisicing
+      elit. Cumque perferendis doloribus magni reiciendis hic harum dignissimos nemo qui explicabo? Neque consequatur aut,
+      corrupti ullam aliquid ut, a aperiam ipsum sed voluptatibus sit enim illo, dolores soluta reiciendis voluptatum libero
+      explicabo.
+    </p>
+
+
+  </section>
+  <section class="shop" id="shop">
+    <h2 class="secondary-heading">Shop</h2>
+    <div class="shop_item">
+      <h3>Donuts</h3>
+      <img srcset="images/donuts_1x.jpg 1x, images/donuts_2x.jpg 2x" alt="donuts" src="images/donuts_2x.jpg" class="shop_img">
+      <p class="shop_txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eum fugit quia voluptatem ab, dolore
+        odit aliquam doloremque facere ut ullam nostrum illo dicta nesciunt. Veritatis, modi maxime? Cupiditate, ipsam.</p>
+      <button class="shop_btn">Purchase</button>
+    </div>
+    <div class="shop_item">
+      <h3>Macaron</h3>
+      <img srcset="images/macaron_1x.jpg 1x, images/macaron_2x.jpg 2x" src="images/macaron_2x.jpg" alt="macaron" class="shop_img">
+      <p class="shop_txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae qui ipsam reiciendis nemo eveniet
+        exercitationem nulla impedit. Provident nobis earum, blanditiis, perferendis ad explicabo a et animi ipsum odio dolore?</p>
+      <button class="shop_btn">Purchase</button>
+    </div>
+    <div class="shop_item">
+      <h3>Cakes</h3>
+      <img srcset="images/birthdaycake_1x.jpg 1x, images/birthdaycake_2x.jpg 2x" src="images/birthdaycake_2x.jpg" alt="cake" class="shop_img">
+      <p class="shop_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aliquam dolorum labore accusamus
+        nihil libero tenetur, dignissimos fuga porro itaque tempora iste, ullam consequuntur? Deserunt placeat ab repellendus
+        debitis magni esse quasi excepturi eum possimus enim. Nihil modi esse inventore!</p>
+      <button class="shop_btn">Purchase</button>
+    </div>
+    <div class="shop_item">
+      <h3>Fruit Popsicles</h3>
+      <img srcset="images/fruitpopsicle_1x.jpg 1x, images/fruitpopsicle_2x.jpg 2x" src="images/fruitpopsicle_2x.jpg" alt="fruit popsicles"
+        class="shop_img">
+      <p class="shop_txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores illo voluptatum autem accusamus
+        eos rem officiis ipsum cum nisi nam repellat laborum asperiores minus ipsam, nesciunt placeat ex et, non hic, quo
+        esse ullam corrupti.</p>
+      <button class="shop_btn">Purchase</button>
+    </div>
+    <div class="shop_item">
+      <h3>Cupcakes</h3>
+      <img srcset="images/cupcake_1x.jpg 1x, images/cupcake_2x 2x" src="images/cupcake_2x.jpg" alt="cupcakes" class="shop_img">
+      <p class="shop_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquid iste eius et assumenda
+        enim nam harum non perferendis excepturi! Praesentium hic accusantium, aut et ipsum ad distinctio voluptatibus ducimus,
+        inventore libero sit!</p>
+      <button class="shop_btn">Purchase</button>
+    </div>
+    <div class="shop_item">
+      <h3>Candies</h3>
+      <img srcset="images/candies_2x.jpg 2x, images/candies_1x.jpg 1x" src="images/candies_2x.jpg" alt="candies" class="shop_img">
+      <p class="shop_txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore assumenda ipsa dolorem autem id
+        molestias suscipit consequatur, perferendis commodi numquam veniam aliquid beatae praesentium laborum?</p>
+      <button class="shop_btn">Purchase</button>
+    </div>
+
+  </section>
+
+</main>
+<footer class="contacts" id="contacts">
+  <h2 class="secondary-heading">Contact Us</h2>
+  <form action="https://www.freecodecamp.com/email-submit" id="form" method="POST">
+    <ul class="contact-list">
+      <li class="contact_item"> <label for="email">Subscribe to our Mailing List:</label>
+        <input type="email" id="email" placeholder="Your email.." name="email">
+        <input type="submit" id="submit" value="submit"></li>
+      <li class="contact_item">
+      </li>
+
+    </ul>
+
+  </form>
+  <div class="contact_social">
+    <p>Follow Us!</p>
+    <p>
+      <i class="fab fa-twitter-square contact_icon" aria-label="twitter contact_icon"></i>
+      <i class="fab fa-facebook-square contact_icon" aria-label="facebook"></i>
+      <i class="fab fa-instagram contact_icon" aria-label="instagram"></i>
+      <i class="fab fa-snapchat-square contact_icon" aria-label="snapchat"></i>
+
+    </p>
+  </div>
+  <div class="contact_credits">
+    <p>
+      Best Bite Bakery by <a href="https://github.com/starskynder" target="_blank">starskynder</a>. Photos from <a href="https://unsplash.com/"
+        target="_blank">Unsplash</a>. Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
+        title="Flaticon" target="_blank">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </p>
+
+
+  </div>
+
+</footer>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"> </script>
 
 </html>
