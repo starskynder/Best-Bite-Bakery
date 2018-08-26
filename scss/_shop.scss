@@ -1,0 +1,46 @@
+/* --- Shop -- */
+.shop {
+  @include flex-row;
+
+  justify-content: center;
+
+  h2 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.shop_item {
+  @include flex-col;
+
+  align-items: center;
+  flex: 100%;
+  max-width: 450px;
+  margin: 1.5em;
+  padding: 1em 0;
+  border-radius: 10px;
+  background-color: lighten($pink-salmon, 20);
+}
+
+.shop_img {
+  width: 250px;
+  border-radius: 5px;
+}
+
+.shop_btn {
+  border: 1px solid $cookie-brown;
+  padding: 0.5em;
+  border-radius: 10px;
+  background-color: $cookie-yellow;
+  font-size: 1.3em;
+  color: $cookie-brown;
+  margin-top: auto;
+  transition: all 0.3s ease-in-out;
+
+  &:focus,
+  &:hover {
+    background-color: lighten($spray, 20);
+    border: 1px solid $spray;
+    color: darken($cookie-brown, 20);
+  }
+}
