@@ -1,0 +1,7 @@
+/* --- About --- */
+.about {
+  @include flex-col;
+
+  align-items: center;
+  padding-top: 2em;
+}
